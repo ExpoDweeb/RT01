@@ -1,6 +1,10 @@
 
 FROM python:3.9
 
+# FROM tensorflow/tensorflow
+# RUN mkdir -p /app
+# WORKDIR /app
+# COPY . /app
 
 # RUN mkdir /src
 # WORKDIR /src
@@ -18,10 +22,6 @@ RUN pip install spacy
 RUN python -m spacy download nb_core_news_lg
 
 
-# FROM tensorflow/tensorflow
-# RUN mkdir -p /app
-# WORKDIR /app
-# COPY . /app
 # RUN python3 -m pip install -U pip
 # RUN pip3 install -r requirements.txt
 # # RUN pip3 install -U spacy
