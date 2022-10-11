@@ -1,0 +1,382 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - are you real
+
+- intent: get_wallet_balance
+  examples: |
+    - what is my wallet balance
+    - wallet
+    - wallet balance
+    - how much is in my wallet
+    - money
+    - how much today
+
+- intent: faq_01
+  examples: |
+    - What documents will I recieve as an investor
+    - documents
+    - my documents
+
+- intent: faq_02
+  examples: |
+    - What am i Investing in
+    - what is this investment
+    - what returns do i recieve on the investments
+  
+- intent: faq_03
+  examples: |
+    - What is whitelist
+    - whitelist
+    - white list
+    - white ls
+  
+- intent: faq_04
+  examples: |
+    - What is smart contract
+    - smart contract
+    - what is contracts
+    - smrt contract
+
+- intent: faq_05
+  examples: |
+    - What is smart token
+    - smart token
+    - smrt token
+
+- intent: faq_06
+  examples: |
+    - Martel invest Security Token Offering STO
+    - STO
+    - sto
+    - Sec token offer
+    - Security token offer
+    - Sec token Offering
+
+  
+- intent: faq_07
+  examples: |
+    - When do i recieve profit distribution
+    - profit distribution
+    - prof dist
+
+  
+- intent: faq_08
+  examples: |
+    - Who can invest?
+    - I can Invest?
+    - invest
+
+  
+- intent: faq_09
+  examples: |
+    - What is security token
+    - security token
+    - how are assets secure
+    - how are assets secured
+    - assets secured
+    - safety
+
+  
+- intent: faq_10
+  examples: |
+    - Will there be liqiudity
+    - liqiudity
+    - where is liqiudity
+    - withdrawl
+    - how fast can i withdraw amount
+
+  
+- intent: faq_11
+  examples: |
+    - How often will the investment value change
+    - investment value change
+    - investment value rate
+    - investment value
+    - investment changes
+    - invest changes
+
+  
+- intent: faq_12
+  examples: |
+    - what is the minimum investment
+    - what is the min investment
+    - what is the mini investment
+    - minimum investment
+    - min invest
+  
+- intent: faq_13
+  examples: |
+    - where purchase martel tokens
+    - where buy martel tokens
+    - where to buy martel tokens
+    - where get martel tokens
+    - where to get martel tokens
+    - martel token
+    - i want to buy token
+  
+- intent: faq_14
+  examples: |
+    - where and how r tokens stored
+    - where and how are tokens stored
+    - tokens stored
+
+- intent: faq_15
+  examples: |
+    - what does it mean to tokenize real estate
+    - tokenize real estate
+    - what is token real estate
+    - real estate tokens
+    - token real estate
+
+- intent: faq_16
+  examples: |
+    - what can i do on the platform 
+    - options
+    - what do to
+    - what all can i do
+    - what does this offer
+
+- intent: faq_17
+  examples: |
+    - tell me about the platform
+    - tell me about realto
+    - realto
+    - platform info
+    - info
+
+- intent: faq_18
+  examples: |
+    - How does MartelTurnkey make money?
+    - How does plaform make money
+    - how you make money
+    - how do you make profits
+    - how much do you get
+    - how much do you make
+
+- intent: faq_19
+  examples: |
+    - What are the steps involved in buying MartelTurnkey turnkey rentals?
+    - how to buy turnkey rentals
+    - turnkey rentals
+    - get turnkey rentals
+    - make tuenkey rentals
+    - turnkey rentals
+    - turnkey
+
+- intent: faq_20
+  examples: |
+    - Can I see the property in person before I buy?
+    - I want to see [property]
+    - is it possible to see asset before purchase
+    - can i see before buy
+    - can i see propert before purchase
+
+- intent: faq_21
+  examples: |
+    - Do all the properties come with tenants in place?
+    - are there tenets ?
+    - does someone live on [property]
+    - is the property empty
+
+- intent: faq_22
+  examples: |
+    - How do I finance a purchase with MartelTurnkey?
+    - how do i make a purchase
+    - do you have lenders
+    - lenders
+    - finance a purchase
+
+- intent: faq_23
+  examples: |
+    - What can I do if I don't have W2 income?
+    - no W2 income
+    - i dont have w2
+
+- intent: faq_24
+  examples: |
+    - How soon do I start getting income from a turnkey rental I’ve purchased?
+    - how long till profits
+    - when will i see income
+    - when do i get income
+    - income wait time
+
+- intent: faq_25
+  examples: |
+    - What kind of insurance do I need?
+    - is there insurance
+    - what insurance is there
+    - insureance
+
+- intent: faq_26
+  examples: |
+    - What if there is a fire or tornado?
+    - fallback plan
+    - what in case of natural disaster
+    - what if there property damage 
+    - contingency 
+
+- intent: faq_27
+  examples: |
+    - Does MartelTurnkey manage the turnkey rentals for us?
+    - how tunrkey is managed
+    - who manages the turn key
+    - can i manage turnkey
+    - how to manage turnkey
+
+- intent: faq_28
+  examples: |
+    - When will I be able to speak with the property management company?
+    - talk to real person
+    - show real human
+    - contact real person
+
+- intent: faq_29
+  examples: |
+    - How much does property management typically cost?
+    - management cost
+    - property management cost
+    - property maintenance costs
+
+- intent: faq_30
+  examples: |
+    - What if my tenant stops paying?
+    - tenet problems?
+    - tenet issues?
+    - how will i know my tenets are paying
+    - are tenets paying
+
+- intent: faq_31
+  examples: |
+    - How do I get repairs and maintenance done on an out of state property?
+    - property maintenance
+    - how to maintain property
+    - who takes care of property
+    - who looks after property
+
+- intent: faq_32
+  examples: |
+    - Does MartelTurnkey own the properties listed on the website?
+    - where are all owned properties
+    - owned property
+    - owned property location
+
+- intent: todo.00
+  examples: |
+    - buy token for [property]{"entity": "object_type", "value": "property_id"}
+    - buy [property]{"entity": "object_type", "value": "property_id"}
+    - get token for [property]{"entity": "object_type", "value": "property_id"}
+    
+- intent: todo.01
+  examples: |
+    - what is available today
+    - whats new
+    - show new
+    - display todays deals 
+    - fresh deals
+
+- intent: get_portfolio
+  examples: |
+    - show me portfolio
+    - portfolio
+    - portfolio status
+    - get portfolio
+
+- intent: get_asset
+  examples: |
+    - show me asset
+    - asset
+    - asset status
+    - get asset 
+    - show me asset
+    - asset
+    - asset status
+    - get asset 

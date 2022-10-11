@@ -1,0 +1,202 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: action_hello_world
+
+- story: get wallet balance
+  steps:
+  - intent: get_wallet_balance
+  - action: action_get_wallet_balance
+  - action: utter_wallet_balance
+
+- story: ask faq_01
+  steps:
+  - intent: faq_01
+  - action: utter_faq_01
+  
+- story: ask faq_02
+  steps:
+  - intent: faq_02
+  - action: utter_faq_02
+  
+- story: ask faq_03
+  steps:
+  - intent: faq_03
+  - action: utter_faq_03
+  
+- story: ask faq_04
+  steps:
+  - intent: faq_04
+  - action: utter_faq_04
+  
+- story: ask faq_05
+  steps:
+  - intent: faq_05
+  - action: utter_faq_05
+  
+  
+- story: ask faq_06
+  steps:
+  - intent: faq_06
+  - action: utter_faq_06
+  
+- story: ask faq_07
+  steps:
+  - intent: faq_07
+  - action: utter_faq_07
+  
+- story: ask faq_08
+  steps:
+  - intent: faq_08
+  - action: utter_faq_08
+  
+- story: ask faq_09
+  steps:
+  - intent: faq_09
+  - action: utter_faq_09
+  
+- story: ask faq_10
+  steps:
+  - intent: faq_10
+  - action: utter_faq_10
+  
+- story: ask faq_11
+  steps:
+  - intent: faq_11
+  - action: utter_faq_11
+  
+- story: ask faq_12
+  steps:
+  - intent: faq_12
+  - action: utter_faq_12
+  
+- story: ask faq_13
+  steps:
+  - intent: faq_13
+  - action: utter_faq_13
+  
+- story: ask faq_14
+  steps:
+  - intent: faq_14
+  - action: utter_faq_14
+  
+- story: ask faq_15
+  steps:
+  - intent: faq_15
+  - action: utter_faq_15
+
+- story: ask faq_16
+  steps:
+  - intent: faq_16
+  - action: utter_faq_16
+
+- story: ask faq_17
+  steps:
+  - intent: faq_17
+  - action: utter_faq_17
+
+- story: ask faq_18
+  steps:
+  - intent: faq_18
+  - action: utter_faq_18
+
+- story: ask faq_19
+  steps:
+  - intent: faq_19
+  - action: utter_faq_19
+
+- story: ask faq_20
+  steps:
+  - intent: faq_20
+  - action: utter_faq_20
+
+- story: ask faq_21
+  steps:
+  - intent: faq_21
+  - action: utter_faq_21
+
+- story: ask faq_22
+  steps:
+  - intent: faq_22
+  - action: utter_faq_22
+
+- story: ask faq_23
+  steps:
+  - intent: faq_23
+  - action: utter_faq_23
+
+- story: ask faq_24
+  steps:
+  - intent: faq_24
+  - action: utter_faq_24
+
+- story: ask faq_25
+  steps:
+  - intent: faq_25
+  - action: utter_faq_25
+
+- story: ask faq_26
+  steps:
+  - intent: faq_26
+  - action: utter_faq_26
+
+- story: ask faq_27
+  steps:
+  - intent: faq_27
+  - action: utter_faq_27
+
+- story: ask faq_28
+  steps:
+  - intent: faq_28
+  - action: utter_faq_28
+
+- story: ask faq_29
+  steps:
+  - intent: faq_29
+  - action: utter_faq_29
+
+- story: ask faq_30
+  steps:
+  - intent: faq_30
+  - action: utter_faq_30
+
+- story: ask faq_31
+  steps:
+  - intent: faq_31
+  - action: utter_faq_31
+
+- story: ask faq_32
+  steps:
+  - intent: faq_32
+  - action: utter_faq_32
+
+- story: ask todo 00
+  steps:
+  - intent: todo.00
+  - action: utter_todo00
+
+- story: ask todo 01
+  steps:
+  - intent: todo.01
+  - action: utter_todo01
+
+- story: get portfolio data
+  steps:
+  - intent: get_portfolio
+  - action: action_get_portfolio
+
+- story: get asset data
+  steps:
+  - intent: get_asset
+  - action: action_get_asset
+
+# - story: get user primary key credentials
+#   steps:
+#   - intent: get_user_id
+#   - action: action_get_userid
+  

@@ -1,0 +1,9 @@
+version: '3.0'
+services:
+  action_server-04:
+    image: action_server-04
+    ports:
+      - 5005:5005
+    volumes:
+      - ./:/src
+    command: rasa run --enable-api --port 5005 --cors "*" -m /models

@@ -1,0 +1,327 @@
+version: "3.1.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - get_wallet_balance
+  - faq_01
+  - faq_02
+  - faq_03
+  - faq_04
+  - faq_05
+  - faq_06
+  - faq_07
+  - faq_08
+  - faq_09
+  - faq_10
+  - faq_11
+  - faq_12
+  - faq_13
+  - faq_14
+  - faq_15
+  - faq_16
+  - faq_17
+  - faq_18
+  - faq_19
+  - faq_20
+  - faq_21
+  - faq_22
+  - faq_23
+  - faq_24
+  - faq_25
+  - faq_26
+  - faq_27
+  - faq_28
+  - faq_29
+  - faq_30
+  - faq_31
+  - faq_32
+  - chitchat
+  - todo.00: 
+      use_entities: 
+        - user_id
+  - todo.01
+  - get_portfolio
+  - get_asset
+
+responses:
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+  utter_did_that_help:
+  - text: "Did that help you?"
+  utter_happy:
+  - text: "Great, carry on!"
+  utter_goodbye:
+  - text: "Bye"
+  utter_iamabot:
+  - text: "I am a bot, powered by RealTo."
+  utter_faq_01: 
+  - text: "Investors will receive audited annual financial statements of the MartelInvest 1 LLC and the MartelInvest Tokens, as well as unaudited monthly reports."
+  utter_faq_02: 
+  - text: "You are investing in the assets owned and operated by the MartelInvest 1 LLC (the “Company”) by becoming a member of the Company."
+  utter_faq_03: 
+  - text: "A whitelist is a list of people or items that are granted access to a certain system or protocol. When a whitelist is used, all entities are denied access, except those included in the whitelist."
+  utter_faq_04: 
+  - text: "Smart contracts are self-executing contracts with the terms of the agreement between buyer and seller being directly written into lines of code. The code and the agreements contained therein exist across a distributed, decentralized blockchain network. Smart contracts permit trusted transactions and agreements to be carried out among disparate, anonymous parties without the need for a central authority, legal system, or external enforcement mechanism. They render transactions traceable, transparent, and irreversible."
+  utter_faq_05: 
+  - text: "Security tokens replace paper certificates with digital tokens on the blockchain. Security tokens enable liquidity, trading scale, and new financing models that benefit both the investor and the issuer. For the last 1,000 years ownership of most assets were managed by all parties to each transaction signing paper certificates. With tokenized securities there is one document that defines the rights of token holders, the tokens themselves are a proxy to that master document, and they can trade just like cryptocurrencies, within regulations."
+  utter_faq_06: 
+  - text: "When you participate in MartelInvest STO, you will receive your limited liability company units in the form of Digital Tokens, also known as Asset-Backed Security Tokens. One digital token represents one limited liability company unit at a current value of $50 per token."
+  utter_faq_07: 
+  - text: "The Company currently intends to distribute net profits of the Company on a quarterly basis in the form of USDC/USDT, but may distribute net profits in a fiat currency in its discretion. The distribution schedule is subject to change and there is no guarantee that the Company will achieve profitability or distribute profits with any certain frequency."
+  utter_faq_08: 
+  - text: "Initial Token holders must be “Accredited Investors” as defined in Rule 501(a) of Regulation D promulgated under the Securities Act"
+  utter_faq_09: 
+  - text: "A security token represents traditional, private security interest. It could represent a share in a company, an LP interest in a fund or a trust, or a member unit in an LLC. Essentially, you're taking something that you have on paper today and you're putting an electronic wrapper around it."
+  utter_faq_10: 
+  - text: "Although the Company anticipates making efforts to list the Tokens for trading on secondary markets, there is no guarantee that the Tokens will be tradeable in any secondary market and an investment therein should be considered only as long-term investment."
+  utter_faq_11: 
+  - text: "The assets of the Company will generally be valued as of each year end, when required by the Operating Agreement, or whenever the Company believes valuation and appraisal are appropriate."
+  utter_faq_12: 
+  - text: "Investors must purchase a minimum of $50 of MartelInvest Tokens to participate."
+  utter_faq_13: 
+  - text: "Investors may go to MarteInvest.com for the on-boarding process to purchase MartelInvest Tokens. Prospective investors must also indicate and provide information supporting their accreditation status and complete anti-money laundering and know-your-customer processes."
+  utter_faq_14: 
+  - text: "You can keep MartelInvest Tokens in any wallet that supports ERC-20 tokens."
+  utter_faq_15: 
+  - text: "Tokenization is the process of breaking up the ownership of an asset into smaller pieces. Each piece of the asset is represented by a digital token. The token ownership and other details are encoded into the blockchain for security. We are taking this process and applying it to the real estate space"
+  utter_faq_16: 
+  - text: "RealTo/Martel  reserved space for proper answer based on realto policies and stuff "
+  utter_faq_17: 
+  - text: "RealTo/Martel  is a nft real estate exchanging platform "
+  utter_faq_18: 
+  - text: "We earn our money by seeking out distressed properties in economically viable markets across the U.S. We fully rehab those properties, put a property manager and tenant in place and then sell at a profit as turnkey rentals to real estate investors. There are no hidden fees or charges."
+  utter_faq_19: 
+  - text: "https://martelturnkey.com/wp-content/uploads/2018/03/how-buy-rental-key.png"
+  utter_faq_20: 
+  - text: "Yes you can. However, most of the turnkey rentals that we have available already have tenants in place and we do not like to disturb the tenants."
+  utter_faq_21: 
+  - text: "Yes, all of our turnkey rentals are sold with tenants in place. Even though the houses on the website may show as vacant, we will get them occupied before closing."
+  utter_faq_22: 
+  - text: "We have lenders lined up ready to finance the purchases of your turnkey rental properties. Whether you will be using conventional financing or buying through your retirement account, we have lenders ready to go. You are free to use your own lender as well; however, we highly recommend using our lender as they already know our product, process, and neighborhoods."
+  utter_faq_23: 
+  - text: "There are many alternative ways to finance turnkey rental property purchases. A thorough discussion of this topic can be found here.	https://martelturnkey.com/how-to-finance-rental-properties-without-w2-income/"
+  utter_faq_24: 
+  - text: "Our goal for you is to buy our turnkey rentals with tenants in place, which means the cash flow begins to come in from day one!"
+  utter_faq_25: 
+  - text: "A full discussion of turnkey rental insurance recommendations can be found here."
+  utter_faq_26: 
+  - text: "Natural disasters would be handled through your rental property insurance company, just the same as your primary residence."
+  utter_faq_27: 
+  - text: "MartelTurnkey does not provide direct property management services. However, we do have a property management team in place for every turnkey rental property we own and sell. When you buy from us, you’ll have the same property manager that we use for our own properties. If you wish to use someone else, you’re always free to do so."
+  utter_faq_28: 
+  - text: "You can contact the property management company about a property you have under contract. Just let us know and we will furnish the contact information."
+  utter_faq_29: 
+  - text: "The property managers we use charge 10% of collected rents. If a new tenant is signing a lease then the property manager takes 1st months rent as a fee. If a tenant is renewing a lease then the property management company will charge a nominal fee of $100-300."
+  utter_faq_30: 
+  - text: "The property manager will advise you in this situation and act on your behalf to collect late fees and/or engage in court proceedings for eviction. All of the states that we invest in are landlord friendly states, which makes these processes inexpensive and effective."
+  utter_faq_31: 
+  - text: "After the property management company receives the maintenance request from the tenant, they will arrange for repairs to be completed."
+  utter_faq_32: 
+  - text: "Yes. We own all the properties you see listed."
+  utter_greet: 
+  - text: "Hey! How are you?"
+  utter_todo00: 
+  - text: "Are you sure you want to confirm your purchase"
+  utter_todo01: 
+  - text: "insert -> fresh list of deals pulled from db"
+  utter_wallet_balance: 
+  - text: "Your wallet currently holds {0}$ "
+
+entities:
+  - time_frame
+  - user_id
+  - month
+
+
+slots: 
+  time_frame: 
+    mappings: 
+      - 
+        type: from_entity
+      - 
+        entity: time_frame
+    type: text
+  user_id: 
+    mappings: 
+      - 
+        type: from_entity
+      - 
+        entity: user_id
+    type: text
+  month:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+
+actions: 
+  - action_get_wallet_balance
+  - action_get_asset
+  - action_get_portfolio
+  - action_hello_world
+
+forms: {}
+e2e_actions: []
+
+
+# version: "3.1"
+
+# entities: 
+#   - user_idversion: "3.1"
+#   - time_frame
+#   - property
+# intents: 
+#   - greet
+#   - goodbye
+#   - affirm
+#   - deny
+#   - get_wallet_balance
+#   - get
+#   - faq_01
+#   - faq_02
+#   - faq_03
+#   - faq_04
+#   - faq_05
+#   - faq_06
+#   - faq_07
+#   - faq_08
+#   - faq_09
+#   - faq_10
+#   - faq_11
+#   - faq_12
+#   - faq_13
+#   - faq_14
+#   - faq_15
+#   - faq_16
+#   - faq_17
+#   - faq_18
+#   - faq_19
+#   - faq_20
+#   - faq_21
+#   - faq_22
+#   - faq_23
+#   - faq_24
+#   - faq_25
+#   - faq_26
+#   - faq_27
+#   - faq_28
+#   - faq_29
+#   - faq_31
+#   - faq_32
+#   - chitchat
+#   - todo.00: 
+#       use_entities: 
+#         - user_id
+#   - todo.01
+#   - get_portfolio
+#   - get_asset
+# responses: 
+#   utter_did_that_help: 
+#   - text: "Did that help you?"
+#   utter_faq_01: 
+#   - text: "Investors will receive audited annual financial statements of the MartelInvest 1 LLC and the MartelInvest Tokens, as well as unaudited monthly reports."
+#   utter_faq_02: 
+#   - text: "You are investing in the assets owned and operated by the MartelInvest 1 LLC (the “Company”) by becoming a member of the Company."
+#   utter_faq_03: 
+#   - text: "A whitelist is a list of people or items that are granted access to a certain system or protocol. When a whitelist is used, all entities are denied access, except those included in the whitelist."
+#   utter_faq_04: 
+#   - text: "Smart contracts are self-executing contracts with the terms of the agreement between buyer and seller being directly written into lines of code. The code and the agreements contained therein exist across a distributed, decentralized blockchain network. Smart contracts permit trusted transactions and agreements to be carried out among disparate, anonymous parties without the need for a central authority, legal system, or external enforcement mechanism. They render transactions traceable, transparent, and irreversible."
+#   utter_faq_05: 
+#   - text: "Security tokens replace paper certificates with digital tokens on the blockchain. Security tokens enable liquidity, trading scale, and new financing models that benefit both the investor and the issuer. For the last 1,000 years ownership of most assets were managed by all parties to each transaction signing paper certificates. With tokenized securities there is one document that defines the rights of token holders, the tokens themselves are a proxy to that master document, and they can trade just like cryptocurrencies, within regulations."
+#   utter_faq_06: 
+#   - text: "When you participate in MartelInvest STO, you will receive your limited liability company units in the form of Digital Tokens, also known as Asset-Backed Security Tokens. One digital token represents one limited liability company unit at a current value of $50 per token."
+#   utter_faq_07: 
+#   - text: "The Company currently intends to distribute net profits of the Company on a quarterly basis in the form of USDC/USDT, but may distribute net profits in a fiat currency in its discretion. The distribution schedule is subject to change and there is no guarantee that the Company will achieve profitability or distribute profits with any certain frequency."
+#   utter_faq_08: 
+#   - text: "Initial Token holders must be “Accredited Investors” as defined in Rule 501(a) of Regulation D promulgated under the Securities Act"
+#   utter_faq_09: 
+#   - text: "A security token represents traditional, private security interest. It could represent a share in a company, an LP interest in a fund or a trust, or a member unit in an LLC. Essentially, you're taking something that you have on paper today and you're putting an electronic wrapper around it."
+#   utter_faq_10: 
+#   - text: "Although the Company anticipates making efforts to list the Tokens for trading on secondary markets, there is no guarantee that the Tokens will be tradeable in any secondary market and an investment therein should be considered only as long-term investment."
+#   utter_faq_11: 
+#   - text: "The assets of the Company will generally be valued as of each year end, when required by the Operating Agreement, or whenever the Company believes valuation and appraisal are appropriate."
+#   utter_faq_12: 
+#   - text: "Investors must purchase a minimum of $50 of MartelInvest Tokens to participate."
+#   utter_faq_13: 
+#   - text: "Investors may go to MarteInvest.com for the on-boarding process to purchase MartelInvest Tokens. Prospective investors must also indicate and provide information supporting their accreditation status and complete anti-money laundering and know-your-customer processes."
+#   utter_faq_14: 
+#   - text: "You can keep MartelInvest Tokens in any wallet that supports ERC-20 tokens."
+#   utter_faq_15: 
+#   - text: "Tokenization is the process of breaking up the ownership of an asset into smaller pieces. Each piece of the asset is represented by a digital token. The token ownership and other details are encoded into the blockchain for security. We are taking this process and applying it to the real estate space"
+#   utter_faq_16: 
+#   - text: "RealTo/Martel  reserved space for proper answer based on realto policies and stuff "
+#   utter_faq_17: 
+#   - text: "RealTo/Martel  is a nft real estate exchanging platform "
+#   utter_faq_18: 
+#   - text: "We earn our money by seeking out distressed properties in economically viable markets across the U.S. We fully rehab those properties, put a property manager and tenant in place and then sell at a profit as turnkey rentals to real estate investors. There are no hidden fees or charges."
+#   utter_faq_19: 
+#   - text: "https://martelturnkey.com/wp-content/uploads/2018/03/how-buy-rental-key.png"
+#   utter_faq_20: 
+#   - text: "Yes you can. However, most of the turnkey rentals that we have available already have tenants in place and we do not like to disturb the tenants."
+#   utter_faq_21: 
+#   - text: "Yes, all of our turnkey rentals are sold with tenants in place. Even though the houses on the website may show as vacant, we will get them occupied before closing."
+#   utter_faq_22: 
+#   - text: "We have lenders lined up ready to finance the purchases of your turnkey rental properties. Whether you will be using conventional financing or buying through your retirement account, we have lenders ready to go. You are free to use your own lender as well; however, we highly recommend using our lender as they already know our product, process, and neighborhoods."
+#   utter_faq_23: 
+  # - text: "There are many alternative ways to finance turnkey rental property purchases. A thorough discussion of this topic can be found here.	https://martelturnkey.com/how-to-finance-rental-properties-without-w2-income/"
+#   utter_faq_24: 
+#   - text: "Our goal for you is to buy our turnkey rentals with tenants in place, which means the cash flow begins to come in from day one!"
+#   utter_faq_25: 
+#   - text: "A full discussion of turnkey rental insurance recommendations can be found here."
+#   utter_faq_26: 
+#   - text: "Natural disasters would be handled through your rental property insurance company, just the same as your primary residence."
+#   utter_faq_27: 
+#   - text: "MartelTurnkey does not provide direct property management services. However, we do have a property management team in place for every turnkey rental property we own and sell. When you buy from us, you’ll have the same property manager that we use for our own properties. If you wish to use someone else, you’re always free to do so."
+#   utter_faq_28: 
+#   - text: "You can contact the property management company about a property you have under contract. Just let us know and we will furnish the contact information."
+#   utter_faq_29: 
+#   - text: "The property managers we use charge 10% of collected rents. If a new tenant is signing a lease then the property manager takes 1st months rent as a fee. If a tenant is renewing a lease then the property management company will charge a nominal fee of $100-300."
+#   utter_faq_30: 
+#   - text: "The property manager will advise you in this situation and act on your behalf to collect late fees and/or engage in court proceedings for eviction. All of the states that we invest in are landlord friendly states, which makes these processes inexpensive and effective."
+#   utter_faq_31: 
+#   - text: "After the property management company receives the maintenance request from the tenant, they will arrange for repairs to be completed."
+#   utter_faq_32: 
+#   - text: "Yes. We own all the properties you see listed."
+#   utter_goodbye: 
+#   - text: Bye
+#   utter_greet: 
+#   - text: "Hey! How are you?"
+#   utter_happy: 
+#   - text: "Great, carry on!"
+#   utter_iamabot: 
+#   - text: "I am a bot, powered by RealTo."
+#   utter_todo00: 
+#   - text: "Are you sure you want to confirm your purchase"
+#   utter_todo01: 
+#   - text: "insert -> fresh list of deals pulled from db"
+#   utter_wallet_balance: 
+#   - text: "Your wallet currently holds {0}$ "
+
+# slots: 
+#   time_frame: 
+#     mappings: 
+#       - 
+#         type: from_entity
+#       - 
+#         entity: time_frame
+#     type: text
+#   user_id: 
+#     mappings: 
+#       - 
+#         type: from_entity
+#       - 
+#         entity: user_id
+#     type: text
+
+
+# session_config: 
+#   carry_over_slots_to_new_session: true
+#   session_expiration_time: 60
+
